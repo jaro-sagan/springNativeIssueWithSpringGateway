@@ -14,7 +14,6 @@ import reactor.core.publisher.Mono;
 
 @RestController
 @SpringBootApplication
-@EnableConfigurationProperties(value = ServerProperties.class)
 public class NativeDemoApplication {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(NativeDemoApplication.class);
